@@ -6,35 +6,30 @@ import Test from './Test'
 
 import Header from './Header';
 
-export default class Admin extends Component {
+export default class Doctor extends Component {
 
 
     render() {
         return (
             
-            <div className="admin-screen" style={{backgroundColor:""}}>
-                <div className="admin-header">
+            <div className="doctor-screen" style={{backgroundColor:""}}>
+                <div className="doctor-header">
                     <Header />
-                    <div style={{ height: "92vh", backgroundColor: "black",  marginTop: "8vh" }}> 
+                    <div style={{ height: "92vh", backgroundColor: "black",  marginTop: "6vh" }}> 
                     <ProSidebar >
                         <Menu >
-                            <MenuItem>Admin View</MenuItem>
+                            <MenuItem>Doctor View</MenuItem>
                             <SubMenu title="Components">
-                                <MenuItem onClick={this.continue}>Add Hospital</MenuItem>
-                                <MenuItem>Search Hospital</MenuItem>
-                                <MenuItem>Delete Hospital</MenuItem>
+                                <MenuItem onClick={this.continue}>Add Report</MenuItem>
+                                <MenuItem>Update Report</ >
+                                <MenuItem>Delete Report</MenuItem>
                             </SubMenu>
                         </Menu>
                     </ProSidebar>
-                    </div>
-                    
-                </div>
-                
-                
+                    </div>   
+                </div>    
             </div>
         )
-
-
     }
 }
 

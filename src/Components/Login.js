@@ -75,7 +75,8 @@ class Login extends Component {
                                 </div>
                             </div>
 
-                            <button type="submit" className="btn btn-primary btn-block" onClick={() => this.nextPath('/admin')}>Submit</button>
+                            {/* <button type="submit" className="btn btn-primary btn-block" onClick={() => this.nextPath('/admin')}>Submit</button> */}
+                            <button type="submit" className="btn btn-primary btn-block" onClick={() => this.nextPath('/doctor')}>Submit</button>
                             <p className="forgot-password text-right">
                                 Forgot <a href="#">password?</a>
                             </p>

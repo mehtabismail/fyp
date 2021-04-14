@@ -11,30 +11,25 @@ export default class Admin extends Component {
 
     render() {
         return (
-            
-            <div className="admin-screen" style={{backgroundColor:""}}>
+
+            <div className="admin-screen" style={{ backgroundColor: "" }}>
                 <div className="admin-header">
                     <Header />
-                    <div style={{ height: "92vh", backgroundColor: "black",  marginTop: "8vh" }}> 
-                    <ProSidebar >
-                        <Menu >
-                            <MenuItem>Admin View</MenuItem>
-                            <SubMenu title="Components">
-                                <MenuItem onClick={this.continue}>Add Hospital</MenuItem>
-                                <MenuItem>Search Hospital</MenuItem>
-                                <MenuItem>Delete Hospital</MenuItem>
-                            </SubMenu>
-                        </Menu>
-                    </ProSidebar>
+                    <div style={{ height: "92vh", backgroundColor: "black", marginTop: "8vh" }}>
+                        <ProSidebar >
+                            <Menu >
+                                <MenuItem>Admin View</MenuItem>
+                                <SubMenu title="Components">
+                                    <MenuItem onClick={this.continue}>Add Hospital</MenuItem>
+                                    <MenuItem>Search Hospital</MenuItem>
+                                    <MenuItem>Delete Hospital</MenuItem>
+                                </SubMenu>
+                            </Menu>
+                        </ProSidebar>
                     </div>
-                    
                 </div>
-                
-                
             </div>
         )
-
-
     }
 }
 
