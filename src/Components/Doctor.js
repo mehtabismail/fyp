@@ -39,7 +39,7 @@ export default class Admin extends Component {
 }
 
 
-// style={{ height: "92vh", backgroundColor: "black", marginRight: "170vh", marginTop: "8vh" }}
+
 
 
 
